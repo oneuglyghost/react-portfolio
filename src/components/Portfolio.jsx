@@ -51,7 +51,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="../src/images/project4.png" alt="Project 4" className="project-image" />
+            <img src="../images/project4.png" alt="Project 4" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/Weather-Updates/">
                 <h3>Weather Updates</h3>
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="../src/images/project5.png" alt="Project 5" className="project-image" />
+            <img src="./src/images/project5.png" alt="Project 5" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/Homework-Password-Generator/">
                 <h3>Password Generator</h3>
