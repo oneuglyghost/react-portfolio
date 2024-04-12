@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [selectedSection, setSelectedSection] = useState('AboutMe');
@@ -13,10 +14,13 @@ function App() {
     <div>
       <Header />
       <Navbar selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
-      {selectedSection === 'AboutMe' && <AboutMe />}
-      {selectedSection === 'Portfolio' && <Portfolio />}
-      {selectedSection === 'Contact' && <Contact />}
-      {selectedSection === 'Resume' && <Resume />}
+      <div className="content">
+        {selectedSection === 'AboutMe' && <AboutMe />}
+        {selectedSection === 'Portfolio' && <Portfolio />}
+        {selectedSection === 'Contact' && <Contact />}
+        {selectedSection === 'Resume' && <Resume />}
+      </div>
+      <Footer />
     </div>
   );
 }

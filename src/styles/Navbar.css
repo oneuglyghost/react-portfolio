@@ -1,0 +1,14 @@
+.navbar {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .navbar-link {
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .navbar-link.active {
+    font-weight: bold;
+    color: lightblue;
+  }
