@@ -9,7 +9,7 @@ const Portfolio = () => {
       <section className='project-container'>
       <div className="project">
           <div className="project-content">
-            <img src="./src/images/project1.png" alt="Project 1" className="project-image" />
+            <img src="src/images/project1.png" alt="Project 1" className="project-image" />
             <div className="project-overlay">
               <a href="https://agile-hollows-63324-0df4568dcdbc.herokuapp.com/login">
                 <h3>Data Dish</h3>
@@ -23,7 +23,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="./src/images/project2.png" alt="Project 2" className="project-image" />
+            <img src="src/images/project2.png" alt="Project 2" className="project-image" />
             <div className="project-overlay">
               <a href="https://sarafuller2018.github.io/PureMomentum-Workout-Site/">
                 <h3>Pure Momentum</h3>
@@ -37,7 +37,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="./src/images/project3.png" alt="Project 3" className="project-image" />
+            <img src="../images/project3.png" alt="Project 3" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/my-professional-portfolio-/">
                 <h3>Portfolio</h3>
@@ -51,7 +51,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="./src/images/project4.png" alt="Project 4" className="project-image" />
+            <img src="src/images/project4.png" alt="Project 4" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/Weather-Updates/">
                 <h3>Weather Updates</h3>
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="./src/images/project5.png" alt="Project 5" className="project-image" />
+            <img src="src/images/project5.png" alt="Project 5" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/Homework-Password-Generator/">
                 <h3>Password Generator</h3>
@@ -79,7 +79,7 @@ const Portfolio = () => {
         </div>
         <div className="project">
           <div className="project-content">
-            <img src="./src/images/project6.png" alt="Project 6" className="project-image" />
+            <img src="src/images/project6.png" alt="Project 6" className="project-image" />
             <div className="project-overlay">
               <a href="https://oneuglyghost.github.io/module-4-code-quiz/">
                 <h3>Data Dish</h3>
