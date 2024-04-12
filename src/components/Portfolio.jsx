@@ -9,7 +9,7 @@ const Portfolio = () => {
       <section className='project-container'>
       <div className="project">
           <div className="project-content">
-            <img src="../src/images/project1.png" alt="Project 1" className="project-image" />
+            <img src="src/images/project1.png" alt="Project 1" className="project-image" />
             <div className="project-overlay">
               <a href="https://agile-hollows-63324-0df4568dcdbc.herokuapp.com/login">
                 <h3>Data Dish</h3>
